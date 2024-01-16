@@ -1,0 +1,140 @@
+[
+    {
+        "skillsets" : [
+            {
+                "id": 1,
+                "name": "HTML",
+                "img": "/img/html5.png"
+            },
+            {
+                "id": 2,
+                "name": "CSS",
+                "img": "/img/css.png"
+            },
+            {
+                "id": 3,
+                "name": "JavaScript",
+                "img": "/img/javascript.png"
+            },
+            {
+                "id": 4,
+                "name": "React.js",
+                "img": "/img/react.png"
+            },
+            {
+                "id": 5,
+                "name": "Vue.js",
+                "img": "/img/vue.png"
+            },
+            {
+                "id": 6,
+                "name": "MySQL",
+                "img": "/img/mysql.png"
+            },
+            {
+                "id": 7,
+                "name": "PHP",
+                "img": "/img/php.png"
+            },
+            {
+                "id": 8,
+                "name": "Bootstrap",
+                "img": "/img/bootstrap.png"
+            },
+            {
+                "id": 9,
+                "name": "Git",
+                "img": "/img/git.png"
+            },
+            {
+                "id": 10,
+                "name": "Github",
+                "img": "/img/github.png"
+            },
+            {
+                "id": 11,
+                "name": "jQuery",
+                "img": "/img/jquery.png"
+            }
+        ]
+    },
+    {
+        "experiences": [
+            {
+                "position": "Co-Founder",
+                "logo": "/img/4digital.jpg",
+                "name": "4Digital",
+                "date": "July 2022 - Present",
+                "text": "Developing and maintaining web applications"
+            },
+            {
+                "position": "Front-End Developer",
+                "logo": "/img/forturaffle.jpg",
+                "name": "FortuRaffle",
+                "date": "Jul 2023 - Oct 2023",
+                "text": "Developing and maintaining web applications for startup"
+            },
+            {
+                "position": "Front-End Developer",
+                "logo": "/img/tesl.jpg",
+                "name": "Tesl Academy",
+                "date": "... - ...",
+                "text": "Make a website for education course"
+            },
+            {
+                "position": "Front-End Developer",
+                "logo": "/img/ufuq.jpg",
+                "name": "Üfüq",
+                "date": "Nov 2023 - Present",
+                "text": "Currently make website for course"
+            },
+            {
+                "position": "Front-End Developer",
+                "logo": "/img/hackathon.png",
+                "name": "Hackathons",
+                "date": "",
+                "text": "Participate in several hackathons. And take 2nd place in DigiEduHack."
+            }
+        ]
+    },
+    {
+        "certificates": [
+            {
+                "img": "/img/Ayaz_Damirov_Talan_Hackathon.jpg",
+                "alt": "Talan_Hackathon"
+            },
+            {
+                "img": "/img/AyazDamirov-Hack4World.jpg",
+                "alt": "Hack4World"
+            },
+            {
+                "img": "/img/ggj23_certificate.jpg",
+                "alt": "skjajkjkasjk"
+            },
+            {
+                "img": "/img/Hackerrank_css.jpg",
+                "alt": "CSS"
+            },
+            {
+                "img": "/img/Hackerrank_react.jpg",
+                "alt": "React"
+            },
+            {
+                "img": "/img/Hackerrank_javascript_basic.jpg",
+                "alt": "JS Basic"
+            },
+            {
+                "img": "/img/Hackerrank_problem_solving_basic.jpg",
+                "alt": "Problem Solving Basic"
+            },
+            {
+                "img": "/img/Hackerrank_sql_basic.jpg",
+                "alt": "SQL Basic"
+            },
+            {
+                "img": "/img/Hackerrank_sql_intermediate.jpg",
+                "alt": "SQL Intermediate"
+            }
+        ]
+    }
+]

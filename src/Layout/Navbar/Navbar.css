@@ -1,0 +1,135 @@
+.navbar {
+  margin: 30px 0px;
+  position: relative;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.logo {
+  width: 80px;
+}
+
+.logo img{
+  border-radius: 50%;
+  background-color: black;
+  padding: 10px;
+}
+
+.nav-elements ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.nav-elements ul li:not(:last-child) {
+  margin-right: 60px;
+}
+
+.nav-elements ul a {
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease-in;
+}
+
+.nav-elements ul a::after {
+  content: '';
+  position: absolute;
+  border-radius: 5px;
+  width: 0;
+  height: 4px;
+  background-color: #1bd5e1;
+  bottom: -10px;
+  left: 0;
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-elements ul a:hover::after {
+  width: 100%;
+}
+
+.nav-elements ul li:not(:last-child) {
+  margin-right: 60px;
+}
+
+.nav-elements ul a.active {
+  position: relative;
+}
+
+.nav-elements ul a.active::after{
+  content: "";
+  position: absolute;
+  border-radius: 5px;
+  width: 100%;
+  height: 4px;
+  background-color: #1bd5e1;
+  bottom: -10px;
+  left: 0;
+}
+
+@media (max-width: 768px) {
+  .nav-elements ul li:not(:last-child) {
+    margin-right: 30px;
+  }
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+
+  .hamburger div {
+    width: 42px;
+    height: 4px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+  .hamburger.active div:nth-child(1) {
+    transform: rotate(-45deg) translate(-10px, 12px);
+  }
+
+  .hamburger.active div:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active div:nth-child(3) {
+    transform: rotate(45deg) translate(-10px, -12px);
+  }
+
+  .nav-elements {
+    backdrop-filter: blur(15px);
+    position: absolute;
+    right: 0;
+    top: 60px;
+    width: 0px;
+    height: calc(100vh - 60px);
+    transition: all 0.3s ease-in;
+    overflow: hidden;
+  }
+
+  .nav-elements.active {
+    width: 270px;
+    z-index: 2;
+    padding-left: 15px;
+  }
+
+  .nav-elements ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-elements ul li {
+    margin-right: unset;
+    margin-top: 22px;
+  }
+}

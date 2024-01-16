@@ -1,0 +1,75 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+  
+.resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+  
+.resume-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.resume-download button{
+    margin-bottom: 20px;
+    background-color: #1bd5e1;
+    color: white;
+    padding: 8px 0px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    width: 250px;
+    opacity: .8;
+    transition: .5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.resume-download button:hover{
+    opacity: 1;
+}
+  
+.resume-img {
+    width: 100%;
+    overflow: hidden;
+}
+  
+.resume-img img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+  
+.pdf-iframe {
+    width: 100%;
+    height: 500px;
+}
+  
+@media only screen and (max-width: 768px) {
+    .pdf-iframe {
+      height: 100vw;
+    }
+    .resume {
+      width: 95%;
+    }
+    .resume-img {
+      width: 100%;
+    }
+    .resume-download button{
+        width: 200px;
+        font-size: 1em;
+    }
+}
+  

@@ -1,0 +1,120 @@
+.header-home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 100px !important;
+}
+.header-home-texts h3{
+    font-size: 2.4em;
+    color: #fff;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+.header-home-texts h2{
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+.header-home-texts h2 p{
+    display: inline-block;
+    color: #1bd5e1;
+}
+.header-home-texts{
+    width: 100%;
+}
+.header-home-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.wave {
+    animation-name: wave-animation;  
+    animation-duration: 2.5s;      
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;      
+    display: inline-block;
+}
+
+.introduce-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    gap: 150px;
+}
+
+.introduce-texts{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.introduce-header{
+    font-size: 1.8em;
+    color: #fff;
+    text-align: center;
+}
+
+.introduce-header h2{
+    font-weight: 100;
+}
+
+.introduce-text{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.introduce-text p{
+    font-size: 1.3em;
+
+}
+
+.introduce-avatar{
+    border-radius: 50%;
+    background-color: #1bd5e1;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.introduce-avatar img{
+    width: 200px;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+    10% { transform: rotate(14.0deg) } 
+    20% { transform: rotate(-8.0deg) }
+    30% { transform: rotate(14.0deg) }
+    40% { transform: rotate(-4.0deg) }
+    50% { transform: rotate(10.0deg) }
+    60% { transform: rotate( 0.0deg) } 
+    100% { transform: rotate( 0.0deg) }
+}
+
+@media screen and (max-width : 768px) {
+    .header-home{
+        flex-direction: column-reverse;
+    }
+    .header-home-texts{
+        text-align: center;
+    }
+    .introduce-container{
+        flex-direction: column-reverse;
+        gap: 50px;
+        padding-top: 150px;
+    }
+}
+
+@media screen and ( max-width: 479px ) {
+    .introduce-avatar img{
+        width: 150px;
+    }
+}
