@@ -24,3 +24,9 @@ body::-webkit-scrollbar{
 body::-webkit-scrollbar-thumb{
   background-color: #046276;
 }
+
+@media (prefers-color-scheme: dark) {
+  * {
+    color: #fff;
+  }
+}
