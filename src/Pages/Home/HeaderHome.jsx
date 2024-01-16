@@ -13,7 +13,7 @@ function HeaderHome() {
           Hi There <span role="img" className='wave' aria-label="waving-hand">👋🏻</span>!
         </h3>
         <h2>
-          I'm <p>Ayaz Damirov</p>
+          I'm <p>Ayaz Damirov BRAAAAT!</p>
         </h2>
         <TypeAnimation
           preRenderFirstString={true}
