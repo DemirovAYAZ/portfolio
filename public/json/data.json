@@ -147,32 +147,32 @@
                 "explanation": "Prototype website developed with HTML , CSS and JavaScript. Site have simple design. Main colors are black and white."
             },
             {
-                "name": "Prototype Website",
-                "img": "/img/prototype.png",
-                "github-link": "https://github.com/DemirovAYAZ/prototype-website",
-                "preview-link": "prototype-website-1.netlify.app/index.htm",
-                "explanation": "Prototype website developed with HTML , CSS and JavaScript. Site have simple design. Main colors are black and white."
+                "name": "Polo Website",
+                "img": "/img/polo.png",
+                "github-link": "https://github.com/DemirovAYAZ/polo360",
+                "preview-link": "https://polo-360-site.netlify.app/",
+                "explanation": "Polo website developed with HTML and CSS. Site have simple design."
             },
             {
-                "name": "Prototype Website",
-                "img": "/img/prototype.png",
-                "github-link": "https://github.com/DemirovAYAZ/prototype-website",
-                "preview-link": "prototype-website-1.netlify.app/index.htm",
-                "explanation": "Prototype website developed with HTML , CSS and JavaScript. Site have simple design. Main colors are black and white."
+                "name": "Fitness Website",
+                "img": "/img/fitness.png",
+                "github-link": "https://github.com/DemirovAYAZ/fitness-site",
+                "preview-link": "https://fitness-website-one-page.netlify.app/",
+                "explanation": "This website developed for fitness hall. Developed with HTML and CSS. Site have simple design."
             },
             {
-                "name": "Prototype Website",
-                "img": "/img/prototype.png",
-                "github-link": "https://github.com/DemirovAYAZ/prototype-website",
-                "preview-link": "prototype-website-1.netlify.app/index.htm",
-                "explanation": "Prototype website developed with HTML , CSS and JavaScript. Site have simple design. Main colors are black and white."
+                "name": "Switch Website",
+                "img": "/img/switch.png",
+                "github-link": "https://github.com/DemirovAYAZ/Switch",
+                "preview-link": "https://switch-website.netlify.app/",
+                "explanation": "This website developed with HTML and CSS. Site have simple design."
             },
             {
-                "name": "Prototype Website",
-                "img": "/img/prototype.png",
-                "github-link": "https://github.com/DemirovAYAZ/prototype-website",
-                "preview-link": "prototype-website-1.netlify.app/index.htm",
-                "explanation": "Prototype website developed with HTML , CSS and JavaScript. Site have simple design. Main colors are black and white."
+                "name": "Calculator",
+                "img": "/img/calculator.png",
+                "github-link": "https://github.com/DemirovAYAZ/Calculator",
+                "preview-link": "https://calculator-with-dark-light-mode.netlify.app/",
+                "explanation": "Calculator developed with HTML , CSS and JavaScript. This calculator can do division , multiplcation , addition , substraction , delete and clear functions. Also calculator have dark/light mode. When you click on the button at the bottom right of the project, the color of the project changes."
             }
         ]
     }
