@@ -102,6 +102,7 @@
 
 .skill:hover{
     transform: scale(1.1);
+    box-shadow: 0 3px 4px 3px #1bd5e1 !important
 }
 
 .experience-container {
@@ -196,6 +197,7 @@
 
 .certificate-image:hover{
     transform: scale(1.1);
+    box-shadow: 0 3px 4px 3px #1bd5e1 !important
 }
 
 .certificate-image img{

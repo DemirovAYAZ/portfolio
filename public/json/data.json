@@ -136,5 +136,44 @@
                 "alt": "SQL Intermediate"
             }
         ]
+    },
+    {
+        "projects": [
+            {
+                "name": "Prototype Website",
+                "img": "/img/prototype.png",
+                "github-link": "https://github.com/DemirovAYAZ/prototype-website",
+                "preview-link": "https://prototype-website-1.netlify.app/",
+                "explanation": "Prototype website developed with HTML , CSS and JavaScript. Site have simple design. Main colors are black and white."
+            },
+            {
+                "name": "Prototype Website",
+                "img": "/img/prototype.png",
+                "github-link": "https://github.com/DemirovAYAZ/prototype-website",
+                "preview-link": "prototype-website-1.netlify.app/index.htm",
+                "explanation": "Prototype website developed with HTML , CSS and JavaScript. Site have simple design. Main colors are black and white."
+            },
+            {
+                "name": "Prototype Website",
+                "img": "/img/prototype.png",
+                "github-link": "https://github.com/DemirovAYAZ/prototype-website",
+                "preview-link": "prototype-website-1.netlify.app/index.htm",
+                "explanation": "Prototype website developed with HTML , CSS and JavaScript. Site have simple design. Main colors are black and white."
+            },
+            {
+                "name": "Prototype Website",
+                "img": "/img/prototype.png",
+                "github-link": "https://github.com/DemirovAYAZ/prototype-website",
+                "preview-link": "prototype-website-1.netlify.app/index.htm",
+                "explanation": "Prototype website developed with HTML , CSS and JavaScript. Site have simple design. Main colors are black and white."
+            },
+            {
+                "name": "Prototype Website",
+                "img": "/img/prototype.png",
+                "github-link": "https://github.com/DemirovAYAZ/prototype-website",
+                "preview-link": "prototype-website-1.netlify.app/index.htm",
+                "explanation": "Prototype website developed with HTML , CSS and JavaScript. Site have simple design. Main colors are black and white."
+            }
+        ]
     }
 ]
