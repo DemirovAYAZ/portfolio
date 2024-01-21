@@ -90,10 +90,11 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
+    opacity: .8;
 }
 .projects-item-buttons button:hover{
     background-color: #1bd5e1;
-
+    opacity: 1;
 }
 
 @media screen and (max-width : 1080px) {
