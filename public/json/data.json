@@ -134,6 +134,10 @@
             {
                 "img": "/img/Hackerrank_sql_intermediate.jpg",
                 "alt": "SQL Intermediate"
+            },
+            {
+                "img": "/img/pasha_hackathon.jpg",
+                "alt": "Pasha Hackathon"
             }
         ]
     },
@@ -173,6 +177,55 @@
                 "github-link": "https://github.com/DemirovAYAZ/Calculator",
                 "preview-link": "https://calculator-with-dark-light-mode.netlify.app/",
                 "explanation": "Calculator developed with HTML , CSS and JavaScript. This calculator can do division , multiplcation , addition , substraction , delete and clear functions. Also calculator have dark/light mode. When you click on the button at the bottom right of the project, the color of the project changes."
+            },
+            {
+                "name": "Moon and Stars",
+                "img": "/img/moon-star.png",
+                "github-link": "https://github.com/DemirovAYAZ/Moon-Stars",
+                "preview-link": "https://moon-and-stars.netlify.app/",
+                "explanation": "This project have stars background. This stars randomly generate when refresh page. And center of page have moon with animation. Developed with HTML and CSS."
+            },
+            {
+                "name": "Budget / Expense Calculator",
+                "img": "/img/budget-expense.png",
+                "github-link": "https://github.com/DemirovAYAZ/Budget-Expense-Calculator",
+                "preview-link": "https://budget-expense-calculator.netlify.app/",
+                "explanation": "This calculator can calculate balance. In here we can write balance and expense and calculator calculate balance. When we write expense , expense list created. In here we can delete or edit expenses."
+            },
+            {
+                "name": "Crypto Info",
+                "img": "/img/crypto_info.png",
+                "github-link": "https://github.com/DemirovAYAZ/crypto-info",
+                "preview-link": "https://crypto-info-website.netlify.app/",
+                "explanation": "This website developed in React.js. In here we can see current price of coins and when click each of coin , we can see information about it."
+            },
+            {
+                "name": "Task Manager",
+                "img": "/img/task_manager.png",
+                "github-link": "https://github.com/DemirovAYAZ/Task-Manager",
+                "preview-link": "https://your-tasks-manager.netlify.app/",
+                "explanation": "This website developed in React.js. In here we can add our task. In here if we click task completed button , task marked. We can delete tasks."
+            },
+            {
+                "name": "Monster Hunt Game",
+                "img": "/img/monster_hunt_game.png",
+                "github-link": "https://github.com/DemirovAYAZ/Monster-Hunt",
+                "preview-link": "https://monster-hunt-game.netlify.app/",
+                "explanation": "This website developed in Vue.js."
+            },
+            {
+                "name": "Solar System",
+                "img": "/img/solar_system.png",
+                "github-link": "https://github.com/DemirovAYAZ/SolarSystem",
+                "preview-link": "https://solar-system-3js.netlify.app/",
+                "explanation": "This website developed in React.js. Use in here Three.js also."
+            },
+            {
+                "name": "Car Show",
+                "img": "/img/car_show.png",
+                "github-link": "https://github.com/DemirovAYAZ/CarShow",
+                "preview-link": "https://threejs-car-show.netlify.app/",
+                "explanation": "This website developed in React.js. Use in here Three.js also."
             }
         ]
     }
