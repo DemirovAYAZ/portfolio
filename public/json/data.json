@@ -152,21 +152,21 @@
             },
             {
                 "name": "Polo Website",
-                "img": "/img/polo.png",
+                "img": "/img/polo.jpg",
                 "github-link": "https://github.com/DemirovAYAZ/polo360",
                 "preview-link": "https://polo-360-site.netlify.app/",
                 "explanation": "Polo website developed with HTML and CSS. Site have simple design."
             },
             {
                 "name": "Fitness Website",
-                "img": "/img/fitness.png",
+                "img": "/img/fitness.jpg",
                 "github-link": "https://github.com/DemirovAYAZ/fitness-site",
                 "preview-link": "https://fitness-website-one-page.netlify.app/",
                 "explanation": "This website developed for fitness hall. Developed with HTML and CSS. Site have simple design."
             },
             {
                 "name": "Switch Website",
-                "img": "/img/switch.png",
+                "img": "/img/switch.jpg",
                 "github-link": "https://github.com/DemirovAYAZ/Switch",
                 "preview-link": "https://switch-website.netlify.app/",
                 "explanation": "This website developed with HTML and CSS. Site have simple design."
@@ -222,7 +222,7 @@
             },
             {
                 "name": "Car Show",
-                "img": "/img/car_show.png",
+                "img": "/img/car_show.jpg",
                 "github-link": "https://github.com/DemirovAYAZ/CarShow",
                 "preview-link": "https://threejs-car-show.netlify.app/",
                 "explanation": "This website developed in React.js. Use in here Three.js also."
