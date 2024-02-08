@@ -4,6 +4,7 @@ import data from '../../../public/json/data.json';
 import Slider from 'react-slick';
 import './About.css'; 
 import { IoMdClose } from "react-icons/io";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function CertificatesAbout() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -72,7 +73,13 @@ function CertificatesAbout() {
                 key={index}
                 onClick={() => openModal(certificate)}
               >
-                <img src={certificate.img} alt={certificate.alt} />
+                <LazyLoadImage
+                  src={certificate.img}
+                  alt={certificate.alt}
+                  effect="blur"
+                  height="auto"
+                  width="100%"
+                />
               </div>
             ))}
           </Slider>

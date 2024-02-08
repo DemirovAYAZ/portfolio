@@ -1,4 +1,5 @@
 import React from 'react'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import './Projects.css'
 import data from '../../../public/json/data.json'
 import { FaRegEye } from "react-icons/fa";
@@ -17,7 +18,13 @@ function Project() {
           {data[3].projects.map((project, index) => (
             <div className='projects-item' key={index}>
               <div className='projects-item-img'>
-                <img src={project.img} alt={project.name} />
+                <LazyLoadImage
+                    src={project.img}
+                    alt={project.name}
+                    effect="blur"
+                    height="auto"
+                    width="100%"
+                />
               </div>
               <div className='projects-item-texts'>
                 <div className='projects-item-header'>
