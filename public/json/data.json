@@ -55,6 +55,11 @@
                 "id": 11,
                 "name": "jQuery",
                 "img": "/img/jquery.png"
+            },
+            {
+                "id": 12,
+                "name": "Next.js",
+                "img": "/img/nextjs.png"
             }
         ]
     },
@@ -85,8 +90,8 @@
                 "position": "Front-End Developer",
                 "logo": "/img/ufuq.jpg",
                 "name": "Üfüq",
-                "date": "Nov 2023 - Present",
-                "text": "Currently make website for course"
+                "date": "... - ...",
+                "text": "Make a website for education course"
             },
             {
                 "position": "Front-End Developer",
@@ -138,6 +143,10 @@
             {
                 "img": "/img/pasha_hackathon.jpg",
                 "alt": "Pasha Hackathon"
+            },
+            {
+                "img": "/img/USG_Apex_Hackathon.jpg",
+                "alt": "USG Apex Hackathon"
             }
         ]
     },
@@ -145,7 +154,7 @@
         "projects": [
             {
                 "name": "Prototype Website",
-                "img": "/img/prototype.png",
+                "img": "/img/prototype.jpg",
                 "github-link": "https://github.com/DemirovAYAZ/prototype-website",
                 "preview-link": "https://prototype-website-1.netlify.app/",
                 "explanation": "Prototype website developed with HTML , CSS and JavaScript. Site have simple design. Main colors are black and white."
@@ -180,7 +189,7 @@
             },
             {
                 "name": "Moon and Stars",
-                "img": "/img/moon-star.png",
+                "img": "/img/moon-star.jpg",
                 "github-link": "https://github.com/DemirovAYAZ/Moon-Stars",
                 "preview-link": "https://moon-and-stars.netlify.app/",
                 "explanation": "This project have stars background. This stars randomly generate when refresh page. And center of page have moon with animation. Developed with HTML and CSS."
@@ -194,7 +203,7 @@
             },
             {
                 "name": "Crypto Info",
-                "img": "/img/crypto_info.png",
+                "img": "/img/crypto_info.jpg",
                 "github-link": "https://github.com/DemirovAYAZ/crypto-info",
                 "preview-link": "https://crypto-info-website.netlify.app/",
                 "explanation": "This website developed in React.js. In here we can see current price of coins and when click each of coin , we can see information about it."
@@ -215,7 +224,7 @@
             },
             {
                 "name": "Solar System",
-                "img": "/img/solar_system.png",
+                "img": "/img/solar_system.jpg",
                 "github-link": "https://github.com/DemirovAYAZ/SolarSystem",
                 "preview-link": "https://solar-system-3js.netlify.app/",
                 "explanation": "This website developed in React.js. Use in here Three.js also."

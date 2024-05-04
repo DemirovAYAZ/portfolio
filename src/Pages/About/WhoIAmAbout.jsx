@@ -11,9 +11,8 @@ function WhoIAmAbout() {
                         <h2>Know Who <span style={{ color: '#1bd5e1' }}>I'M</span></h2>
                     </div>
                     <div className='who-i-am-text'>
-                        <p>Hi Everyone, I am <span style={{ color: '#1bd5e1' }}>Ayaz Damirov</span> from <span  style={{ color: '#1bd5e1' }}>Baku, Azerbaijan.</span></p>
-                        <p>I am currently employed as a software developer at 4Digital.</p>
-                        <p>I have completed Integrated MSc (IMSc) in Maths and Computing at BIT Mesra.</p>
+                        <p>Hi Everyone, I am <span style={{ color: '#1bd5e1' , fontStyle: 'italic' , fontWeight: '600' }}>Ayaz Damirov</span> from <span style={{ color: '#1bd5e1' , fontStyle: 'italic' , fontWeight: '600' }}>Baku, Azerbaijan</span>.</p>
+                        <p>I have been studying <span style={{ color: '#1bd5e1' , fontStyle: 'italic' , fontWeight: '600' }}>Information Technology</span> at <span style={{ color: '#1bd5e1' , fontStyle: 'italic' , fontWeight: '600' }}>Azerbaijan State Oil and Industry University</span> since 2021</p>
                     </div>
                     <div className='who-i-am-hobby'>
                         <h3>Apart from coding, some other activities that I love to do!</h3>

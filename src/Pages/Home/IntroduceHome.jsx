@@ -12,9 +12,8 @@ function IntroduceHome() {
             </div>
             <div className='introduce-text'>
                 <p>I fell in love with programming and I have at least learnt something, I think… 🤷‍♂️</p>
-                <p>I am fluent in classics like <span style={{ color: '#1bd5e1' , fontStyle: 'italic' , fontWeight: '600' }}>C++, Javascript and Go.</span></p>
-                <p>My field of Interest's are building new <span style={{ color: '#1bd5e1' , fontStyle: 'italic' , fontWeight: '600' }}>Web Technologies</span> and Products and also in areas related to <span style={{ color: '#1bd5e1' , fontStyle: 'italic' , fontWeight: '600' }}>Blockchain.</span></p>
-                <p>Whenever possible, I also apply my passion for developing products with <span style={{ color: '#1bd5e1' , fontStyle: 'italic' , fontWeight: '600' }}>Node.js</span> and <span style={{ color: '#1bd5e1' , fontStyle: 'italic' , fontWeight: '600' }}>Modern Javascript Library and Frameworks</span>  like <span style={{ color: '#1bd5e1' , fontStyle: 'italic' , fontWeight: '600' }}>React.js and Next.js</span></p>
+                <p><span style={{ color: '#1bd5e1' , fontStyle: 'italic' , fontWeight: '600' }}>My portfolio</span> is a testament to my dedication and expertise, showcasing my projects, competitions, and contributions to the tech</p>
+                <p>I thrive on creating new web technologies and products by constantly looking for the next problem to solve. Leveraging the power of modern <span style={{ color: '#1bd5e1' , fontStyle: 'italic' , fontWeight: '600' }}>JavaScript</span> frameworks like <span style={{ color: '#1bd5e1' , fontStyle: 'italic' , fontWeight: '600' }}>React.js</span>, <span style={{ color: '#1bd5e1' , fontStyle: 'italic' , fontWeight: '600' }}>Vue.js</span>, and <span style={{ color: '#1bd5e1' , fontStyle: 'italic' , fontWeight: '600' }}>Next.js</span>, I'm always eager to learn and apply new technologies to my work.</p>
             </div>
         </div>
         <div className='introduce-avatar'>
