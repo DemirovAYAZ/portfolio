@@ -95,6 +95,13 @@
             },
             {
                 "position": "Front-End Developer",
+                "logo": "/img/kaffa_logo.png",
+                "name": "CoffeeRaffa",
+                "date": "April 2024 - June 2024",
+                "text": "Make a website for coffee shop"
+            },
+            {
+                "position": "Front-End Developer",
                 "logo": "/img/hackathon.png",
                 "name": "Hackathons",
                 "date": "",
