@@ -102,6 +102,13 @@
             },
             {
                 "position": "Front-End Developer",
+                "logo": "/img/azerconnect-logo.png",
+                "name": "Azerconnect",
+                "date": "August 2024 - Present",
+                "text": "Internship"
+            },
+            {
+                "position": "Front-End Developer",
                 "logo": "/img/hackathon.png",
                 "name": "Hackathons",
                 "date": "",
@@ -186,6 +193,13 @@
                 "github-link": "https://github.com/DemirovAYAZ/Switch",
                 "preview-link": "https://switch-website.netlify.app/",
                 "explanation": "This website developed with HTML and CSS. Site have simple design."
+            },
+            {
+                "name": "Organic Food Website",
+                "img": "/img/organic-food.png",
+                "github-link": "https://github.com/DemirovAYAZ/Organic-food-website",
+                "preview-link": "https://organic-foods-ayaz.netlify.app/",
+                "explanation": "TI developed the 'Organic Food' website to showcase a range of organic food products, promoting healthier lifestyle choices. Built using React.js, the application ensures a responsive and dynamic user experience. Redux is utilized for efficient state management, providing a seamless interaction across the site. The design is crafted with CSS, maintaining a clean and user-friendly interface."
             },
             {
                 "name": "Calculator",
