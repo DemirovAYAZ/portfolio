@@ -81,27 +81,6 @@
             },
             {
                 "position": "Front-End Developer",
-                "logo": "/img/tesl.jpg",
-                "name": "Tesl Academy",
-                "date": "... - ...",
-                "text": "Make a website for education course"
-            },
-            {
-                "position": "Front-End Developer",
-                "logo": "/img/ufuq.jpg",
-                "name": "Üfüq",
-                "date": "... - ...",
-                "text": "Make a website for education course"
-            },
-            {
-                "position": "Front-End Developer",
-                "logo": "/img/kaffa_logo.png",
-                "name": "CoffeeRaffa",
-                "date": "April 2024 - June 2024",
-                "text": "Make a website for coffee shop"
-            },
-            {
-                "position": "Front-End Developer",
                 "logo": "/img/azerconnect-logo.png",
                 "name": "Azerconnect",
                 "date": "August 2024 - Present",

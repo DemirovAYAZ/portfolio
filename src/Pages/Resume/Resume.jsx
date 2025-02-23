@@ -1,32 +1,35 @@
-import React, { useRef } from 'react';
-import cv from '../../../public/img/Ayaz-Demirov-CV.jpg';
+import React from 'react';
 import './Resume.css';
-import html2canvas from 'html2canvas';
-import jsPDF from 'jspdf';
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
-  const resumeRef = useRef();
-  const pdf = new jsPDF();
+  const pdfUrl = '/img/Ayaz_Damirov_CV2.pdf'; // Relative path from public/
 
   const downloadResume = () => {
-    html2canvas(resumeRef.current).then((canvas) => {
-      const imgData = canvas.toDataURL('image/jpg');
-      pdf.addImage(imgData, 'jpg', 0, 0, pdf.internal.pageSize.getWidth(), pdf.internal.pageSize.getHeight());
-      pdf.save('Ayaz-Demirov-CV.pdf');
-    });
+    const link = document.createElement('a');
+    link.href = pdfUrl;
+    link.download = 'Ayaz_Damirov_CV2.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (
     <div className='container'>
       <div className='resume-container'>
         <div className='resume-download'>
-          <button onClick={downloadResume}><AiOutlineDownload />Download CV</button>
+          <button onClick={downloadResume}>
+            <AiOutlineDownload /> Download CV
+          </button>
         </div>
-        <div className='resume' ref={resumeRef}>
-          <div className='resume-img'>
-            <img src={cv} alt="Resume" />
-          </div>
+        <div className='resume-preview'>
+          <iframe 
+            src={pdfUrl} 
+            title="Resume"
+            width="100%"
+            height="auto"
+            className='responsive-iframe'
+          ></iframe>
         </div>
       </div>
     </div>
