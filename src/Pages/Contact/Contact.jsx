@@ -47,6 +47,7 @@ function Contact() {
           <Link to='/resume'><button className='contact-button'>See My Resume</button></Link>
         </div>
       </div>
+      
     </div>
   )
 }

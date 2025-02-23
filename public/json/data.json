@@ -1,6 +1,6 @@
 [
     {
-        "skillsets" : [
+        "skillsets": [
             {
                 "id": 1,
                 "name": "HTML",
@@ -60,6 +60,11 @@
                 "id": 12,
                 "name": "Next.js",
                 "img": "/img/nextjs.png"
+            },
+            {
+                "id": 12,
+                "name": "Tailwind CSS",
+                "img": "/img/tailwind.png"
             }
         ]
     },
@@ -80,11 +85,11 @@
                 "text": "Developing and maintaining web applications for startup"
             },
             {
-                "position": "Front-End Developer",
+                "position": "Front-End Developer Intern",
                 "logo": "/img/azerconnect-logo.png",
                 "name": "Azerconnect",
                 "date": "August 2024 - Present",
-                "text": "Internship"
+                "text": "Worked closely with the team to resolve technical issues, ensuring a seamless user experience for customers on both the nar.az and esim.nar.az."
             },
             {
                 "position": "Front-End Developer",
@@ -92,11 +97,22 @@
                 "name": "Hackathons",
                 "date": "",
                 "text": "Participate in several hackathons. And take 2nd place in DigiEduHack."
+            },
+            {
+                "position": "Front-End Developer",
+                "logo": "/img/freelance.jpg",
+                "name": "Freelancer",
+                "date": "",
+                "text": "Cofferaffe - https://www.coffeeraffa.az/\nTesl Academy - https://www.tesl.az/site/enindex.html\nHicest Holding - https://hicestholding.com/\nazerbaijan alumni association - Coming..."
             }
         ]
     },
     {
         "certificates": [
+            {
+                "img": "/img/Ayaz Demirov Pasha Bank Hackathon.jpg",
+                "alt": "Pasha Bank Hackathon"
+            },
             {
                 "img": "/img/Ayaz_Damirov_Talan_Hackathon.jpg",
                 "alt": "Talan_Hackathon"

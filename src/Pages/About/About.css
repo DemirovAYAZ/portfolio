@@ -105,6 +105,10 @@
     box-shadow: 0 3px 4px 3px #1bd5e1 !important
 }
 
+.experience-link{
+    color: #1bd5e1;
+}
+
 .experience-container {
     margin-top: 20px;
     width: 100%;

@@ -3,13 +3,35 @@ import './About.css';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import data from '../../../public/json/data.json';
+import { Link } from 'react-router-dom';
+
+const renderMultilineText = (text) => {
+  return text.split('\n').map((line, index) => {
+    const urlRegex = /(https?:\/\/[^\s]+)/g;
+    const parts = line.split(urlRegex);
+
+    return (
+      <p key={index}>
+        {parts.map((part, idx) => (
+          urlRegex.test(part) ? (
+            <Link key={idx} className='experience-link' to={part} target="_blank" rel="noopener noreferrer">
+              {part}
+            </Link>
+          ) : (
+            part
+          )
+        ))}
+      </p>
+    );
+  });
+};
 
 function ExperienceAbout() {
   return (
     <div className='container'>
       <div className='experience-container'>
         <div className='experience-header'>
-            <h2>Experience</h2>
+          <h2>Experience</h2>
         </div>
         <VerticalTimeline>
           {data[1].experiences.map((experience, index) => (
@@ -25,7 +47,7 @@ function ExperienceAbout() {
               <div>
                 <h3>{experience.position}</h3>
                 <h4>{experience.name}</h4>
-                <p>{experience.text}</p>
+                {renderMultilineText(experience.text)}
               </div>
             </VerticalTimelineElement>
           ))}
