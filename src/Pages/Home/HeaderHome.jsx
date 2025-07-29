@@ -1,5 +1,3 @@
-// HeaderHome.js
-
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import './Home.css';
